@@ -259,3 +259,8 @@ footer {
     padding-top: 48px;
   }
 }
+.logo {
+    height: 70px;
+    width: auto;
+    display: block;
+} 
