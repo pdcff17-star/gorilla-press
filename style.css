@@ -47,17 +47,17 @@ a {
   font-size: 13px;
 }
 
-.logo-mark {
-  width: 46px;
-  height: 46px;
-  display: grid;
-  place-items: center;
-  border: 2px solid var(--green);
-  color: var(--green);
-  border-radius: 12px;
-  font-weight: 900;
-  box-shadow: 0 0 20px rgba(57,255,20,.45);
+
+.logo {
+    height: 180px;
+    width: auto;
+    display: block;
+    filter: drop-shadow(0 0 15px rgba(57,255,20,.7));
+    transition: transform .3s ease;
 }
+
+.logo:hover {
+    transform: scale(1.08);
 
 nav {
   display: flex;
