@@ -68,14 +68,13 @@ nav {
 }
 
 .hero {
-  min-height: 88vh;
-  display: grid;
-  grid-template-columns: 1.15fr .85fr;
-  gap: 40px;
-  align-items: center;
-  padding: 80px 7%;
-}
-
+    min-height: 88vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    padding: 100px 8%;
+} 
 .eyebrow {
   color: var(--green);
   text-transform: uppercase;
