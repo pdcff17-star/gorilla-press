@@ -1,110 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gorilla Press & Embroidery | Custom DTF, Shirts, Hats & More</title>
-  <meta name="description" content="Gorilla Press & Embroidery creates custom DTF prints, shirts, hats, hoodies, patches, business apparel, and merch with bold print-ready quality." />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gorilla Press & Embroidery</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:white;
+}
+
+header{
+    background:#111;
+    text-align:center;
+    padding:40px 20px;
+    border-bottom:4px solid #39ff14;
+}
+
+header img{
+    width:220px;
+    max-width:90%;
+}
+
+header h1{
+    color:#39ff14;
+    margin-top:20px;
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+    color:#ccc;
+}
+
+.hero{
+    padding:80px 20px;
+    text-align:center;
+    background:linear-gradient(#111,#000);
+}
+
+.hero h2{
+    font-size:2.8rem;
+    color:#39ff14;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+.button{
+    display:inline-block;
+    margin-top:35px;
+    background:#39ff14;
+    color:black;
+    text-decoration:none;
+    padding:18px 40px;
+    font-weight:bold;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.button:hover{
+    transform:scale(1.05);
+}
+
+.services{
+    padding:60px 20px;
+}
+
+.services h2{
+    text-align:center;
+    color:#39ff14;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#181818;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.card h3{
+    color:#39ff14;
+    margin-bottom:15px;
+}
+
+.gallery{
+    padding:60px 20px;
+}
+
+.gallery h2{
+    text-align:center;
+    color:#39ff14;
+    margin-bottom:40px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.gallery-grid img{
+    width:100%;
+    border-radius:10px;
+}
+
+footer{
+    padding:40px;
+    text-align:center;
+    background:#111;
+    margin-top:60px;
+    border-top:3px solid #39ff14;
+}
+
+.phone{
+    font-size:1.5rem;
+    color:#39ff14;
+    margin-top:15px;
+}
+</style>
+
 </head>
+
 <body>
-  <header class="nav">
-    <div class="brand">
-      <img src="logo.png.png" alt="Gorilla Press Logo" class="logo"> 
-      <div>
-        <strong>Gorilla Press</strong>
-        <span>& Embroidery</span>
-      </div>
-    </div>
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <p class="eyebrow">Custom apparel • DTF prints • Embroidery • Hats</p>
-      <h1>Prints that hit hard, look clean, and make your brand impossible to ignore.</h1>
-      <p class="subtext">
-        Gorilla Press builds bold, high-detail custom gear for businesses, clubs, events,
-        teams, bars, and anyone who needs merch that looks professional.
-      </p>
-      <div class="hero-buttons">
-        <a class="btn primary" href="#contact">Get a Quote</a>
-        <a class="btn secondary" href="#services">See Services</a>
-      </div>
-    </div>
+<header>
 
-   <div class="hero-image">
-    <img src="logo.png.png" alt="Gorilla Press Logo" class="hero-logo">
-</div> 
-  </section>
+<img src="logo.png" alt="Gorilla Press Logo">
 
-  <section id="services" class="section">
-    <p class="eyebrow">What we do</p>
-    <h2>Custom work built for real customers.</h2>
-    <div class="grid">
-      <article>
-        <h3>DTF Prints</h3>
-        <p>Full-color transfers for shirts, hoodies, jerseys, bags, and more.</p>
-      </article>
-      <article>
-        <h3>Embroidery</h3>
-        <p>Clean stitch work for hats, polos, patches, workwear, and uniforms.</p>
-      </article>
-      <article>
-        <h3>Business Merch</h3>
-        <p>Apparel packages for companies, crews, restaurants, clubs, and events.</p>
-      </article>
-      <article>
-        <h3>Design Help</h3>
-        <p>Logo cleanup, artwork prep, mockups, and print-ready file setup.</p>
-      </article>
-    </div>
-  </section>
+<h1>GORILLA PRESS</h1>
 
-  <section class="banner">
-    <h2>Need shirts, hats, or transfers?</h2>
-    <p>Send your idea, logo, quantity, sizes, and deadline. We’ll get you moving.</p>
-    <a class="btn primary" href="#contact">Start an Order</a>
-  </section>
+<p>DTF Printing • Embroidery • Apparel • Hats • Stickers</p>
 
-  <section id="work" class="section">
-    <p class="eyebrow">Portfolio</p>
-    <h2>Recent style examples</h2>
-    <div class="portfolio">
-      <div>Chrome Biker Logos</div>
-      <div>Business Shirts</div>
-      <div>Club & Event Merch</div>
-      <div>Hats & Patches</div>
-      <div>Neon Bar Designs</div>
-      <div>DTF Gang Sheets</div>
-    </div>
-  </section>
+</header>
 
-  <section id="contact" class="section contact">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2>Ready to print?</h2>
-      <p>
-        Message Gorilla Press with your design, shirt color, sizes, quantity, and when you need it.
-      </p>
-    </div>
+<section class="hero">
 
-    <div class="contact-card">
-      <a class="btn primary full" href="tel:+13610000000">Call Now</a>
-      <a class="btn secondary full" href="sms:+13610000000">Text for Quote</a>
-      <a class="btn secondary full" href="mailto:gorillapress@example.com">Email Artwork</a>
-      <p class="small">Replace the phone number and email in this file with your real contact info.</p>
-    </div>
-  </section>
+<h2>Premium Custom Printing</h2>
 
-  <footer>
-    <p>© <span id="year"></span> Gorilla Press & Embroidery. Built for custom print work.</p>
-  </footer>
+<p>
+From one shirt to large business orders, Gorilla Press delivers
+high-quality DTF transfers, embroidery, hats, hoodies, decals,
+and custom apparel with fast turnaround and professional results.
+</p>
 
-  <script src="script.js"></script>
+<a href="#contact" class="button">Get A Quote</a>
+
+</section>
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>DTF Transfers</h3>
+<p>Bright, durable, full-color custom prints.</p>
+</div>
+
+<div class="card">
+<h3>Embroidery</h3>
+<p>Professional embroidery for hats, polos, jackets, and uniforms.</p>
+</div>
+
+<div class="card">
+<h3>Business Apparel</h3>
+<p>Company shirts, hoodies, workwear, and promotional clothing.</p>
+</div>
+
+<div class="card">
+<h3>Custom Designs</h3>
+<p>Artwork created specifically for your business or event.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="gallery">
+
+<h2>Featured Work</h2>
+
+<div class="gallery-grid">
+
+<img src="shirt1.jpg">
+<img src="shirt2.jpg">
+<img src="shirt3.jpg">
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<h2>Contact Gorilla Press</h2>
+
+<p>2342 S. Alameda<br>Corpus Christi, Texas</p>
+
+<div class="phone">
+Call or Message for a Quote
+</div>
+
+<p style="margin-top:20px;">
+Quality You Can Wear.
+</p>
+
+</footer>
+
 </body>
 </html>
