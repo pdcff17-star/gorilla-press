@@ -264,3 +264,20 @@ footer {
     width: auto;
     display: block;
 } 
+.hero-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-logo{
+    width:100%;
+    max-width:650px;
+    height:auto;
+    filter:drop-shadow(0 0 30px rgba(57,255,20,.6));
+    transition:.3s ease;
+}
+
+.hero-logo:hover{
+    transform:scale(1.05);
+} 
